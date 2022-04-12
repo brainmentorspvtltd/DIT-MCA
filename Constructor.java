@@ -7,13 +7,13 @@ class Animal
 
     Animal(int a)
     {
-        this();//calls the default
+        this();//calls the default constructor
         System.out.println("Single Parametrized...."+a);
     }
 
     Animal(int a,int b)
     {
-        this(5);//calls the parametrized
+        this(5);//calls the single parametrized
         System.out.println("Double Parametrized..."+a+" "+b);
     }
 }
