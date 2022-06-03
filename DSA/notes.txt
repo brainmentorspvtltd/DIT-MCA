@@ -1,0 +1,67 @@
+1D Array
+- Array is one of the oldest and simplest data structure
+- used to store data with similar data type
+Good Parts of Array
+- It provides random access
+- Cache friendly
+  - Cache is the memory near to processor
+  - cache always brings the nearby data (contiguous data)
+  - because elements are continuous so next index element is always present on cache...
+
+Syntax of 1D Array
+int x[] = {1,2,3,4};
+int []x = {1,2,3,4};
+int x[] = new int[5]
+int x[] = new int[]{1,2,3,4};
+--------------------------------
+Array CRUD Operations
+C - Create
+R - Read
+U- Update
+D - Delete
+Array Questions
+1. Find Largest element in array
+2. Second Largest element in array
+3. Span of an Array - HW
+   - arr[] = {2,1,3,19,12,15,6}
+   - span of an array : difference b/w the minimum and maximum element of array
+   - span = 19 - 1 = 18
+4. Print Bar Chart
+5. Array is sorted or not - HW
+    - arr[] = {2,3,1,4,5,6,7}
+    - o/p : no
+6. Reverse an Array
+7. Pair Sum
+Two Pointer Approach
+8. Remove Duplicate element from sorted array - HW
+   arr[] = {1,1,1,1,2,2,2,2,3,3,3,3,4,4,5,6,7,7,7,7}
+   o/p = {1,2,3,4,5,6,7}
+9. Convert array into zig zag fashion / wave array - HW
+    - a < b > c < d > e
+   i/p : [4,3,7,8,6,2,1]
+   o/p : [3,7,4,8,2,6,1]
+   hint - start loop from start to end, check if the first element is greater than second element so       swap it, else if first element < second element so swap second time...
+10. Leader Element in an array
+11. Addition of 2 array elements
+12. Subtraction of 2 array elements - HW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
